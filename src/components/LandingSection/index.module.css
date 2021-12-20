@@ -1,0 +1,16 @@
+.LandingSection{
+    display: flex !important;
+}
+.LandingSection  div{
+    margin-right: 25%;
+}
+@media screen and (max-width: 768px) {
+    .LandingSection{
+        display: block !important;
+        margin-top: 25px;
+    }
+    .getInTouch{
+        margin-bottom: 3vw;
+    }
+    
+}

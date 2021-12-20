@@ -1,0 +1,71 @@
+header{
+    background: none !important;
+}
+.buttons{
+    margin-left:65%;
+}
+.mobileMenu{
+  display: none;
+}
+.overlayMobile {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  .overlayMobileContent {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlayMobile a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #333;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlayMobile a:hover,
+  .overlayMobile a:focus {
+    color: #333;
+  }
+  
+  .overlayMobile .closebtn {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    font-size: 60px;
+    background-color: white;
+  }
+  
+@media screen and (max-width: 768px) {
+    .buttons{
+        display:none !important;
+    }
+    .mobileMenu {
+      display: block;
+      background-color: white;
+      padding: 10px;
+      border: none;
+      color: #333;
+      border-radius: 5px;
+      margin-right: 1.3em;
+    }
+    .mobileMenu > i {
+      font-size: 25px;
+    }
+    .ant-layout-header{
+      line-height: 0px !important;
+    }
+
+}

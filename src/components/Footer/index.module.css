@@ -1,0 +1,30 @@
+.footer{
+    display:flex;
+}
+ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.description{
+    width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    .description{
+        width: 100%;
+    }
+    .footer{
+        display: block;
+    }
+    .mobileMenuOptions {
+        display: grid;
+        background-color: white;
+        padding: 10px;
+        border: none;
+        color: #333;
+        border-radius: 5px;
+        margin-right: 1.3em;
+      }
+}
